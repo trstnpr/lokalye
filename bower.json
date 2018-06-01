@@ -1,0 +1,30 @@
+{
+  "name": "Code",
+  "authors": [
+    "trstnpr <than.pare@gmail.com>"
+  ],
+  "description": "Test Code",
+  "main": "gulpfile.js, package.json, bower.json",
+  "keywords": [
+    "sass",
+    "gulp",
+    "js",
+    "bootstrap",
+    "jquery"
+  ],
+  "license": "MIT",
+  "homepage": "git",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery-ui": "^1.12.1",
+    "font-awesome": "^4.7.0",
+    "parallax.js": "^1.5.0"
+  }
+}

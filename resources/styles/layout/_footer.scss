@@ -1,0 +1,24 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+.footer {
+	background-color:$color-full-1;
+
+	.top-footer-widgets {
+		// padding:40px 0;
+		min-height:10px;
+	}
+	.bottom-footer-copyright {
+		text-align:center;
+		background-color:rgba(0,0,0,0.23);
+		padding:60px 0;
+
+		p {
+			color:#fff;
+			font-weight:800;
+			margin:0;
+			line-height:1.3;
+		}
+
+	}
+}

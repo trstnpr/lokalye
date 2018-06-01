@@ -1,0 +1,345 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+.homepage {
+
+	.section-banner {
+
+		background-position:center;
+		background-size:cover;
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-color:$color-trans-1;
+		display:flex;
+		min-height:100vh;
+		padding:60px 0 50px 0;
+
+		align-items:center;
+
+		.tagline {
+			margin-bottom:70px;
+			text-align:center;
+
+			.title {
+				font-family:$font-extrabold;
+				text-transform:uppercase;
+				color:#fff;
+				line-height:1.4;
+			}
+			.subtitle {
+				font-family:$font-light;
+				text-transform:uppercase;
+				color:#fff;
+				line-height:1.3;
+			}
+		}
+
+		.searchform-wrap {
+			.form-container {
+				@include mx-box-shadow(0px 0px 30px 0px rgba(0,0,0,0.75));
+
+				.content-left {
+					padding:30px;
+					background-color:#fff;
+					.form-control {
+						background-color:#efefef;
+						border-radius:0px;
+						border:0;
+
+						padding: .75rem 1rem;
+	    				font-size: 1rem;
+					}
+					.input-group-addon {
+						border:0;
+						border-radius:0px;
+						background-color:#ddd;
+						padding: .375rem 1rem;
+					}
+				}
+				.btn-search {
+					background-color:$color-full-2;
+					font-family:$font-extrabold;
+					color:#fff;
+					font-weight:bold;
+					font-size:20px;
+
+				}
+			}
+		}
+
+	}
+
+	.section-submit-business {
+		padding:60px 0;
+
+		.content-box {
+			padding:30px;
+			background-color:#f5f3f5;
+
+			.left-content img {
+				display:block;
+				margin:auto;
+			}
+			.right-content {
+				padding:20px 0 0 0;
+
+				h2 {
+					margin-bottom:10px;
+					font-weight:bold;
+				}
+				p {
+					color: $color-full-1;
+					margin-bottom:20px;
+				}
+				.btn-cta {
+					font-family:$font-semibold;
+					background-color: $color-full-1;
+					color:#fff;
+				}
+			}
+		}
+	}
+
+	.section-categories {
+		padding:60px 0;
+
+		.section-title {
+			margin-bottom:30px;
+			h2 {
+				font-weight:bold;
+				float:left;
+			}
+
+			.btn-allcat {
+				float:right;
+				font-family:$font-semibold;
+				background-color: $color-full-1;
+				color:#fff;
+				.fa {
+					color:#fff;
+				}
+			}
+		}
+
+		.section-content {
+
+			.categories-wrap {
+
+				.category-item {
+					margin-bottom:20px;
+					@extend .box-shadow;
+					border:2px solid #f5f5f5;
+					padding:50px;
+					text-align:center;
+
+					.icon-thumb {
+						img {
+							width:65%;
+						}
+					}
+					.category-label {
+						font-size:16px;
+						font-family:$font-semibold;
+					}
+
+				}
+
+			}
+
+		}
+	}
+
+	.section-new-business {
+		padding:60px 0;
+
+		.section-title {
+			margin-bottom:30px;
+			h2 {
+				font-weight:bold;
+			}
+		}
+
+		.section-content {
+
+			.business-wrap {
+
+				.business-item {
+					margin-bottom:20px;
+
+					.card {
+						@extend .box-shadow;
+
+						.badge-category {
+							position:absolute;
+							top:15px;
+							left:15px;
+							text-transform:uppercase;
+							font-family:$font-bold;
+							font-weight:800;
+							padding:0.5em 0.75em;
+							border-radius:0.2rem;
+							line-height:1.5;
+						}
+
+						.business-thumb {
+							height:230px;
+							object-fit:cover;
+							object-position:center;
+						}
+
+						.card-body {
+
+							.title {
+								font-size:14px;
+								font-weight:bold;
+							}
+							.info {
+								.price {
+									color:$color-full-2;
+									font-weight:bold;
+								}
+								.rate {
+									float:right;
+
+									.fa-star {
+										color:#ffc70c;
+									}
+									.fa-star-o {
+										color:#b2b2b2;
+									}
+								}
+							}
+						}
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+	.section-featured-business {
+		padding:60px 0;
+
+		.section-title {
+			margin-bottom:30px;
+			h2 {
+				font-weight:bold;
+				float:left;
+			}
+
+			.btn-all-listing {
+				float:right;
+				font-family:$font-semibold;
+				background-color: $color-full-1;
+				color:#fff;
+				.fa {
+					color:#fff;
+				}
+			}
+		}
+
+		.section-content {
+
+			.business-wrap {
+
+				.business-item {
+					margin-bottom:20px;
+
+					.card {
+						@extend .box-shadow;
+
+						.badge-category {
+							position:absolute;
+							top:15px;
+							left:15px;
+							text-transform:uppercase;
+							font-family:$font-bold;
+							font-weight:800;
+							padding:0.5em 0.75em;
+							border-radius:0.2rem;
+							line-height:1.5;
+						}
+
+						.business-thumb {
+							height:230px;
+							object-fit:cover;
+							object-position:center;
+						}
+
+						.card-body {
+
+							.title {
+								font-size:14px;
+								font-weight:bold;
+							}
+							.info {
+								.price {
+									color:$color-full-2;
+									font-weight:bold;
+								}
+								.rate {
+									float:right;
+
+									.fa-star {
+										color:#ffc70c;
+									}
+									.fa-star-o {
+										color:#b2b2b2;
+									}
+								}
+							}
+						}
+					}
+
+				}
+
+			}
+
+		}
+
+	}
+
+}
+
+@media only screen and (min-width : 768px) {
+
+}
+
+@media only screen and (max-width : 767px) {
+
+	.section-title h2 {
+		font-size:20px;
+	}
+
+	.section-submit-business {
+		.content-box {
+			padding:20px!important;
+
+			.left-content img {
+				max-height:200px;
+			}
+
+			.right-content {
+				h2 {
+					font-size:20px;
+				}
+			}
+		}
+	}
+
+	.section-categories {
+		.section-title {
+			h2 {
+				float:none!important;
+			}
+
+			.btn-allcat {
+				float:none!important;
+				margin:auto;
+			}
+		}
+	}
+}
